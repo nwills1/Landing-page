@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+
+/* -------------- Navigation Bar ----------------------------*/
+
+nav {
+    background: #001a33;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 18px 32px 0 18px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    
+}
+ 
+nav ul a {
+    text-decoration: none;
+    color: #fffff;
+}
+
+nav a:visited {
+    color: silver;
+}
+
+nav ul a:hover {
+    text-decoration: underline;
+}
