@@ -14,11 +14,12 @@ body {
 
 nav {
     background: #001a33;
+    color: #fff;
     display: flex;
     align-items: center;
     justify-content: space-between;
 
-    padding: 18px 32px 0 18px;
+    padding: 12px 48px 0 48px;
 }
 
 nav ul {
@@ -30,11 +31,11 @@ nav ul {
  
 nav ul a {
     text-decoration: none;
-    color: #fffff;
+    color: #ffff;
 }
 
 nav a:visited {
-    color: silver;
+    color: rgb(210, 209, 209);
 }
 
 nav ul a:hover {
@@ -44,7 +45,7 @@ nav ul a:hover {
 /* ------------------------ HERO SECTION -----------------*/
 header {
     background: #001a33;
-    color: #fff;
+    color: #f9fAf8;
     padding: 48px;
     display: flex;
     flex: 1;
@@ -65,8 +66,9 @@ header img {
 }
 
 .bio h1 {
-    font-size: 40px;
+    font-size: 48px;
     margin: 0;
+    font-weight: bolder;
 }
 
 .bio p {
@@ -87,15 +89,41 @@ header img {
 }
 
 /* ------------------------- Section One -------------------------*/
+
 .section1 {
+    font-weight: light;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 .section1 img {
-    border: 2px solid #0598ce;
-    border-radius: 16%;
-    width: 72px;
-    height: 72px;
+    border: 3px solid #0598ce;
+    border-radius: 12%;
+    width: 100px;
+    height: 100px;
     margin-bottom: 0;
+}
+
+.snapshots {
+    font-weight: normal;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 48px;
+    margin: 32px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 150px;
+    text-align: center;
+}
+
+/*------------------------ Section Two ---------------------------*/
+.quote {
+    font-size: 24px;
+    background-color: #b1b0b0;
 }
