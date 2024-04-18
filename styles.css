@@ -10,7 +10,7 @@ body {
 }
 
 
-/* -------------- Navigation Bar ----------------------------*/
+/* -------------------------- Navigation Bar ----------------------------*/
 
 nav {
     background: #001a33;
@@ -41,7 +41,7 @@ nav ul a:hover {
     text-decoration: underline;
 }
 
-/* ---------------------------HERO SECTION -----------------*/
+/* ------------------------ HERO SECTION -----------------*/
 header {
     background: #001a33;
     color: #fff;
@@ -75,13 +75,27 @@ header img {
     margin-bottom: 16px;
 }
 
-.signup {
+.signup {     /*------ formatting for both buttons-------- */
     font-size: 16px;
     width: fit-content;
     padding: 6px 10px;
-    background-color: #0598ce;
+    background-color: #3882f6;
     color:#fff;
     font-weight: 500px;
     border-radius: 5%;
     border: none;
+}
+
+/* ------------------------- Section One -------------------------*/
+.section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section1 img {
+    border: 2px solid #0598ce;
+    border-radius: 16%;
+    width: 72px;
+    height: 72px;
+    margin-bottom: 0;
 }
