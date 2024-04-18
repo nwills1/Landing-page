@@ -122,8 +122,48 @@ header img {
     text-align: center;
 }
 
-/*------------------------ Section Two ---------------------------*/
+/*------------------------ Section Two (Quote) ---------------------------*/
+.quote-container {
+    background-color: #d7d6d6;
+    font-size: 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
 .quote {
-    font-size: 24px;
-    background-color: #b1b0b0;
+    display: flex;
+    width: 550px;
+    font-style: italic;
+}
+
+.quote p {
+    margin-bottom: 0;
+}
+
+.signature {
+    margin-left: auto;
+    margin-right: 250px;
+}
+
+/* ------------------------ Call to Action -------------------------------*/
+
+.cta {
+    border: solid 4px black;
+    background-color: #3882f6;
+    color: #fff;
+}
+
+
+
+
+/* ----------------------------- Footer --------------------------------- */
+
+footer {
+    background: #001a33;
+    color: #f9fAf8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
