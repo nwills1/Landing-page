@@ -5,6 +5,8 @@ body {
     display: flex;
     flex-direction: column;
 
+    justify-content: space-between;
+
     font-family: "Roboto", "Franklin Gothic Medium", Tahoma, sans-serif;
     font-size: 16px;
 }
@@ -77,14 +79,14 @@ header img {
     margin-bottom: 16px;
 }
 
-.signup {     /*------ formatting for both buttons-------- */
+button {     /*------ formatting for both buttons-------- */
     font-size: 16px;
     width: fit-content;
     padding: 6px 10px;
     background-color: #3882f6;
     color:#fff;
-    font-weight: 500px;
-    border-radius: 5%;
+    font-weight: bold;
+    border-radius: 6px;
     border: none;
 }
 
@@ -99,7 +101,7 @@ header img {
 
 .section1 img {
     border: 3px solid #0598ce;
-    border-radius: 12%;
+    border-radius: 10px;
     width: 100px;
     height: 100px;
     margin-bottom: 0;
@@ -132,10 +134,11 @@ header img {
     padding: 32px;
 }
 
-.quote {
+.quote p {
     display: flex;
     width: 550px;
     font-style: italic;
+    color: #454545f2;
 }
 
 .quote p {
@@ -150,19 +153,39 @@ header img {
 /* ------------------------ Call to Action -------------------------------*/
 
 .cta {
-    border: solid 4px black;
     background-color: #3882f6;
     color: #fff;
+    margin: 48px 100px;
+    border-radius: 10px;
+    padding: 24px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 6px;
 }
 
+.cta h3 {
+    margin: 0;
+}
 
+.cta p {
+    margin: 0;
+    color: #d7d6d6;
+}
 
+ button.signup {
+    border: solid 2px #d7d6d6;
+ }
+
+/* need to change class of first button. condense styles that apply to both. make new edits for second button in CTA */
 
 /* ----------------------------- Footer --------------------------------- */
 
 footer {
     background: #001a33;
     color: #f9fAf8;
+    padding: 8px;
     display: flex;
     align-items: center;
     justify-content: center;
