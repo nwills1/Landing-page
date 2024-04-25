@@ -100,11 +100,12 @@ button {     /*------ formatting for both buttons-------- */
 }
 
 .section1 img {
-    border: 3px solid #0598ce;
+    border: 2px solid #0598ce;
     border-radius: 10px;
-    width: 100px;
-    height: 100px;
+    width: 150px;
+    height: 150px;
     margin-bottom: 0;
+
 }
 
 .snapshots {
@@ -162,6 +163,7 @@ button {     /*------ formatting for both buttons-------- */
     display: flex;
     align-items: center;
     justify-content: space-around;
+    
 }
 
 .cta h3 {
